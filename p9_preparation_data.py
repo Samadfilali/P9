@@ -37,13 +37,13 @@ import pickle
 # # I) Chargement des données
 
 # # II) Préparation des données
-# En entrée : frame 
+# En entrée : ./input
 # - Calcul de la variable RatingArticle pour évaluer chaque article par chaque lecteur
 # - Suppression des couples (lecteur,article) dont le temps de lecture dépasse 4s par mot
 # - Suppression des articles les plus populaires dont le nombre de lecteurs dépasse 4945
 # - Suppression des articles les moins populaires dont le nombre de lecteurs est au dessous de 1051
 # 
-# En sortie : DF_csv.csv
+# En sortie : DF_csv.csv, Model knn
 
 # In[8]:
 
